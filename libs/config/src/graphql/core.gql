@@ -1,0 +1,18 @@
+scalar Upload
+scalar Date
+
+interface PaginationOutput {
+  curPage: Int!
+  totalPage: Int!
+  hasNextPage: Boolean!
+}
+
+input PaginationInputBySkip {
+  pageNumber: Int!
+  pageSize: Int!
+}
+
+input PaginationInputById {
+  lastId: Int!
+  pageSize: Int!
+}
