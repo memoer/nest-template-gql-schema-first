@@ -3,6 +3,10 @@
 - `yarn start:dev <local|dev|staging>`
 - `yarn start:debug <local|dev|staging>`
 
+---
+
+- **.env.example -> .env.local 로 이름을 변경하고 시작해야 합니다.**
+
 1. 위의 명령어를 실행할 경우, `./scripts/start-(dev|debug).sh` 가 실행됩니다.
 2. 서버가 띄워지기 전에, Docker 를 띄웁니다. [ DB, Redis Container ]
 
